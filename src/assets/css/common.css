@@ -1,0 +1,25 @@
+@import './fonts.css';
+@import './colors.css';
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'SB Sans Display', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  color: var(--color-text-black);
+}
+
+body,
+#___gatsby,
+#gatsby-focus-wrapper {
+  min-height: 100vh;
+}
