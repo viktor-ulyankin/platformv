@@ -2,8 +2,9 @@ import * as React from "react"
 import Button from "../components/Button/Button";
 import Layout from "../components/Layout/Layout";
 import Title from "../components/Title/Title";
+import Icon from "../components/Icon/Icon";
 import "../assets/css/common.css";
-import TestIcon from "../assets/svg/bell.svg";
+import testSvg from "../assets/svg/bell.svg";
 
 const IndexPage = () => (
   <Layout>
@@ -11,7 +12,7 @@ const IndexPage = () => (
     <p>Мы взяли на себя создание, поддержку и масштабирование среды для разработки. Вы думаете только про продукт, который вам нужен: </p>
     <Button href="/test.html">Button</Button>
     <br />
-    <TestIcon width="25px" height="25px" />
+    <Icon source={testSvg} width="24px" color="red" />
   </Layout>
 );
 

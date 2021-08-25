@@ -5,6 +5,9 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-postcss",
-    "gatsby-plugin-react-svg",
+    "gatsby-plugin-svg-sprite-loader",
+
+    // Должен быть подключен последним
+    "gatsby-plugin-no-javascript",
   ],
 };
